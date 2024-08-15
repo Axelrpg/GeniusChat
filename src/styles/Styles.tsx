@@ -8,13 +8,13 @@ export const styles = StyleSheet.create({
     appbarHeader: {
         backgroundColor: currentStyle === 'dark'
             ? darkColors.primaryBackground.color
-            : '#fff',
+            : lightColors.primaryBackground.color,
     },
     homeContainer: {
         flex: 1,
         backgroundColor: currentStyle === 'dark'
             ? darkColors.primaryBackground.color
-            : '#fff',
+            : lightColors.primaryBackground.color,
     },
     homeDialogContainer: {
         backgroundColor: currentStyle === 'dark'
@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
     homeFlatListText: {
         color: currentStyle === 'dark'
             ? darkColors.primaryText.color
-            : '#000',
+            : lightColors.primaryText.color,
         fontSize: 16,
         padding: 5,
         textAlignVertical: 'center',
@@ -51,6 +51,6 @@ export const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: currentStyle === 'dark'
             ? darkColors.primaryBackground.color
-            : '#fff',
+            : lightColors.primaryBackground.color,
     },
 });
